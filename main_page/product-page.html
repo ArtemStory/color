@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница товара</title>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&subset=cyrillic-ext"
+            rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+<header>
+    <div class="header__container">
+        <div class="header__wrapper-mobile_burger">
+            <span></span>
+        </div>
+        <img src="media/icons/header_icons/search_black.svg" class="search_change-mobile">
+        <div class="header__wrapper-mobile_menu-body">
+            <ul class="header__wrapper-mobile_menu-li">
+                <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-catalog">
+
+                    <div class="header__wrapper-mobile_menu-text">каталог</div>
+                    <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+
+                </li>
+                <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-stock"><a href="stock.html">акции</a>
+                </li>
+                <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-news"><a href="news.html">новости</a>
+                </li>
+                <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-education">
+                    <div class="header__wrapper-mobile_menu-text">обучение</div>
+                    <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                </li>
+                <li class="header__wrapper-mobile_menu-item"><a href="brands.html">партнерство</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="contacts.html">контакты</a></li>
+            </ul>
+            <ul class="header__wrapper-mobile_education-li">
+                <div class="header__wrapper-mobile_education-title">
+                    <div class="header__wrapper-mobile_education-img">
+                        <img src="media/icons/header-mobile/closed__icon.svg">
+                    </div>
+                    <div class="header__wrapper-mobile_education-text">обучение</div>
+                </div>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">аппаратный педикюр</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">аппаратный маникюр</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">wella professionals</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">tigi</a></li>
+                <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-davines ">
+                    <div class="header__wrapper-mobile_menu-text">davines</div>
+                    <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                </li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">londa professionals</a></li>
+            </ul>
+            <ul class="header__wrapper-mobile_catalog-li">
+                <div class="header__wrapper-mobile_catalog-title">
+                    <div class="header__wrapper-mobile_catalog-img">
+                        <img src="media/icons/header-mobile/closed__icon.svg">
+                    </div>
+                    <div class="header__wrapper-mobile_catalog-text">каталог</div>
+                </div>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">gehwol</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">londa</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">nioxin</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">seb man</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">tigi</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">wella professionals</a></li>
+            </ul>
+            <ul class="header__wrapper-mobile_davines-li">
+                <div class="header__wrapper-mobile_davines-title">
+                    <div class="header__wrapper-mobile_davines-img">
+                        <img src="media/icons/header-mobile/closed__icon.svg">
+                    </div>
+                    <div class="header__wrapper-mobile_davines-text">davines</div>
+                </div>
+                <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-styling">
+                    <div class="header__wrapper-mobile_menu-text">стайлинг</div>
+                    <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                </li>
+                <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-care">
+                    <div class="header__wrapper-mobile_menu-text">уход</div>
+                    <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                </li>
+            </ul>
+            <ul class="header__wrapper-mobile_styling-li">
+                <div class="header__wrapper-mobile_styling-title">
+                    <div class="header__wrapper-mobile_styling-img">
+                        <img src="media/icons/header-mobile/closed__icon.svg">
+                    </div>
+                    <div class="header__wrapper-mobile_styling-text">стайлинг</div>
+                </div>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">more inside - креативный
+                    стайлинг</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">pasta & love</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">your hair assistaint</a></li>
+            </ul>
+            <ul class="header__wrapper-mobile_care-li">
+                <div class="header__wrapper-mobile_care-title">
+                    <div class="header__wrapper-mobile_care-img">
+                        <img src="media/icons/header-mobile/closed__icon.svg">
+                    </div>
+                    <div class="header__wrapper-mobile_care-text">уход</div>
+                </div>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">more inside - креативный
+                    стайлинг</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">pasta & love</a></li>
+                <li class="header__wrapper-mobile_menu-item"><a href="#">your hair assistaint</a></li>
+            </ul>
+        </div>
+        <div class="header__logo">
+            <a href="home-page.html"><img src="media/icons/header_icons/header__logo-black.svg" alt=""></a>
+        </div>
+        <button type="button" class="profile__open-mobile"><img src="media/icons/header_icons/profile_black.svg"
+                                                                class="profile_change"></button>
+        <button type="button" class="basket_open-mobile"><img src="media/icons/header_icons/basket_black.svg"
+                                                              class="trash_change"></button>
+        <nav class="header__nav">
+            <div class="header__menu" id="navbarSupportedContent">
+                <div class="catalog_and_search">
+                    <button class="menu__catalog" type="button">каталог</button>
+                    <form class="menu__search" role="search">
+                        <input class="form-control search__input" type="search" placeholder="поиск"
+                               aria-label="Search">
+                        <button class="btn search__button" type="submit"><img
+                                src="media/icons/header_icons/search_black.svg" class="search_change"></button>
+                    </form>
+                </div>
+                <ul class="navbar-nav menu__items">
+                    <li class="nav-item">
+                        <a class="menu__item__link" href="stock.html">акции</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu__item__link" href="сooperation.html">сотрудничество</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu__item__link" href="brands.html">бренды</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu__item__link" href="news.html">новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu__item__link" href="education.html">обучение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menu__item__link" href="contacts.html">контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__user_icon">
+            <button class="header__user_icon-heart" type="button"><img
+                    src="media/icons/header_icons/heart_black.svg" class="heart_change"></button>
+            <button type="button"><img src="media/icons/header_icons/profile_black.svg" class="profile_change">
+            </button>
+            <button type="button" class="basket_open"><img src="media/icons/header_icons/basket_black.svg"
+                                                           class="trash_change"></button>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="modal__container">
+        <div class="modal">
+            <div class="modal__navigate"><span id="homeCatalog">Главная</span> <span>/</span> <span>Каталог</span></div>
+            <div class="modal__nav">
+                <div class="modal__nav-menu">
+                    <ul class="modal__nav-menu-list">
+                        <li>
+                            <div class="modal__nav-menu-list-item"><a href="catalog.html">Бестлеры</a></div>
+                            <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </li>
+                        <li>
+                            <div class="modal__nav-menu-list-item"><a href="catalog.html">Уход за волосами</a></div>
+                            <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </li>
+                        <li>
+                            <div class="modal__nav-menu-list-item"><a href="catalog.html">Укладочные средства</a></div>
+                            <div class="modal__nav-menu-list-item-img"></div>
+                        </li>
+                        <li>
+                            <div class="modal__nav-menu-list-item"><a href="catalog.html">Окрашивание</a></div>
+                            <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </li>
+                        <li>
+                            <div class="modal__nav-menu-list-item"><a href="catalog.html">Уход за телом</a></div>
+                            <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </li>
+                        <li>
+                            <div class="modal__nav-menu-list-item"><a href="catalog.html">Подарочные наборы</a></div>
+                            <div class="modal__nav-menu-list-item-img"></div>
+                        </li>
+                        <li>
+                            <div class="modal__nav-menu-list-item"><a href="catalog.html">Бренды</a></div>
+                            <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal__nav-submenu">
+                    <div class="modal__nav-sumbenu-title">Уход за волосами</div>
+                    <ul class="modal__nav-submenu-list">
+                        <li>Шампуни</li>
+                        <li>Бальзамы, маски кондиционеры</li>
+                        <li>Несмываемый уход</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product-page" class="main__product-block">
+        <div class="product-block__left">
+            <div class="product-block__image-background">
+                <div class="product-block__other-images">
+                    <img class="product-block__other-image" src="../main_page/media/product-page/other-image.png">
+                    <img class="product-block__other-image" src="../main_page/media/product-page/other-image.png">
+                    <img class="product-block__other-image" src="../main_page/media/product-page/other-image.png">
+                    <img class="product-block__other-image" src="../main_page/media/product-page/other-image.png">
+                </div>
+                <div class="product-block__main-image">
+                    <img class="product-block__image" src="../main_page/media/product-page/main-image.png">
+                </div>
+                <div class="swiper product-block__swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide swiper-slide__image-slide ">
+                            <img class="swiper-slide__image" src="../main_page/media/product-page/main-image.png">
+                        </div>
+                        <div class="swiper-slide swiper-slide__image-slide">
+                            <img class="swiper-slide__image" src="../main_page/media/product-page/main-image.png">
+                        </div>
+                        <div class="swiper-slide swiper-slide__image-slide">
+                            <img class="swiper-slide__image" src="../main_page/media/product-page/main-image.png">
+                        </div>
+                        <div class="swiper-slide swiper-slide__image-slide">
+                            <img class="swiper-slide__image" src="../main_page/media/product-page/main-image.png">
+                        </div>
+                        <div class="swiper-slide swiper-slide__image-slide">
+                            <img class="swiper-slide__image" src="../main_page/media/product-page/main-image.png">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination product-block__swiper-pagination "></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-block__right">
+            <div class="product-block__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+            <div class="product-block__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+            <div class="product-block__vendor-code">артикул: 19000106952</div>
+            <div class="product-block__price">
+                <div class="product-block__full-price">666 ₽</div>
+                <div class="product-block__discount-price">
+                    <div class="product-block__price-title">400 ₽</div>
+                    <div class="product-block__price-subtitle">если ты крутой</div>
+                </div>
+            </div>
+            <div class="product-block__button">
+                <button class="product-block__button-basket">в корзину</button>
+                <button class="product-block__button-elected">
+                    <img src="../main_page/media/product-page/white-heart.png">
+                </button>
+            </div>
+            <div class="product-block__search">
+                <a href="#" class="product-block__link">наличие в магазинах</a>
+                <a href="#" class="product-block__link-arrow">
+                    <img src="../main_page/media/icons/carousel_next.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="main__about-product">
+        <div class="about-product__title-block">
+            <div class="about-product__titlе-item">ОПИСАНИЕ</div>
+            <div class="about-product__titlе-item">ПРИМЕНЕНИЕ</div>
+            <div class="about-product__titlе-item">СОСТАВ</div>
+        </div>
+        <div class="about-product__title">Strong Hold Cream Gel MORE INSIDE</div>
+        <div class="about-product__vendor-code">артикул: 19000106952</div>
+        <div class="about-product__info">
+            Чтобы у вашей кожи появился кто-то вроде CICA-терапевта.
+            Экстракт Центеллы Азиатской - первоклассный специалист по борьбе со стрессом вследствие
+            агрессивного воздействия среды, помогает эпидермису восстанавливать естественный барьер,
+            снимает покраснения, улучшает микроциркуляцию крови и способствует увеличению производства
+            коллагена. И да, по части увлажнения CICA не уступает гиалуроновой кислоте. А теперь
+            прибавьте к этому увлажняющие и защитные свойства аллантоина и пантенола. Хотите помочь своей коже?
+        </div>
+        <div class="about-product__characteristics">
+            <div class="about-product__characteristics-title">подробные характеристики</div>
+            <div class="about-product__type-product">
+                <div class="about-product__characteristics-left">тип продукта</div>
+                <div class="about-product__characteristics-right">салфетки</div>
+            </div>
+            <div class="about-product__for-whom">
+                <div class="about-product__characteristics-left">для кого</div>
+                <div class="about-product__characteristics-right">унисекс</div>
+            </div>
+            <div class="about-product__appointment">
+                <div class="about-product__characteristics-left">назначение</div>
+                <div class="about-product__characteristics-right">увлажнение и питание</div>
+            </div>
+            <div class="about-product__application-area">
+                <div class="about-product__characteristics-left">область применения</div>
+                <div class="about-product__characteristics-right">лицо</div>
+            </div>
+            <div class="about-product__skin-type">
+                <div class="about-product__characteristics-left">тип кожи</div>
+                <div class="about-product__characteristics-right">для всех типов кожи</div>
+            </div>
+        </div>
+    </div>
+    <div class="main__reviews">
+        <div class="reviews__title-block">
+            <div class="reviews__title">Отзывы</div>
+            <div class="reviews__count">12</div>
+        </div>
+        <div class="reviews__items">
+            <div class="reviews__item">
+                <div class="reviews__item-name">Виктория</div>
+                <div class="reviews__item-background">
+                    <div class="reviews__item-info">
+                        <div class="reviews__item-stars">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star.png">
+                        </div>
+                        <div class="reviews__item-date">29 сентября 2022 г.</div>
+                    </div>
+                    <div class="reviews__item-review">
+                        Девочки кто хочет распахнутый взгляд, реснички как после наращивания, делает длинными и
+                        объемными
+                    </div>
+                    <div class="reviews__item-feedback">
+                        <div class="reviews__item-likes">
+                            <div class="reviews__item-like">
+                                <img src="../main_page/media/product-page/like.png">
+                            </div>
+                            <div class="reviews__item-like-count">0</div>
+                        </div>
+                        <div class="reviews__item-dislikes">
+                            <div class="reviews__item-dislike">
+                                <img src="../main_page/media/product-page/dislike.png">
+                            </div>
+                            <div class="reviews__item-dislike-count">2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item-rotate-background">
+                </div>
+            </div>
+            <div class="reviews__item">
+                <div class="reviews__item-name">Елизавета</div>
+                <div class="reviews__item-background">
+                    <div class="reviews__item-info">
+                        <div class="reviews__item-stars">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star-background.png">
+                            <img class="reviews__item-star" src="../main_page/media/product-page/star.png">
+                        </div>
+                        <div class="reviews__item-date">30 сентября 2022 г.</div>
+                    </div>
+                    <div class="reviews__item-review">
+                        Давно пользуюсь этой тушью,замечательная...не осыпаеться,
+                        отлично удлиняет и даёт классный объём
+                    </div>
+                    <div class="reviews__item-feedback">
+                        <div class="reviews__item-likes">
+                            <div class="reviews__item-like">
+                                <img src="../main_page/media/product-page/like.png">
+                            </div>
+                            <div class="reviews__item-like-count">0</div>
+                        </div>
+                        <div class="reviews__item-dislikes">
+                            <div class="reviews__item-dislike">
+                                <img src="../main_page/media/product-page/dislike.png">
+                            </div>
+                            <div class="reviews__item-dislike-count">2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item-rotate-background">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main__similar-products">
+        <div class="similar-products__title-control">
+            <div class="similar-products__title">
+                ПОХОЖИЕ ТОВАРЫ
+            </div>
+            <div class="similar-products__control">
+                <div class="swiper-button-prev products__button-prev">
+                    <img src="../main_page/media/icons/carousel_prev.svg">
+                </div>
+                <div class="swiper-button-next products__button-next">
+                    <img src="../main_page/media/icons/carousel_next.svg">
+                </div>
+            </div>
+        </div>
+
+            <div class="swiper-container product__slider">
+                <div class="swiper-wrapper products__slider-wrapper">
+                    <div class="image__slide swiper-slide ">
+                        <div class="image-slider__image">
+                            <img class="image-slider__image-heart"
+                                 src="../main_page/media/product-page/slider/slider__heart.svg">
+                            <img src="../main_page/media/product-page/slider/1.png">
+                        </div>
+                        <div class="image-slider__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+                        <div class="image-slider__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+                    </div>
+                    <div class="image__slide swiper-slide ">
+                        <div class="image-slider__image">
+                            <img class="image-slider__image-heart"
+                                 src="../main_page/media/product-page/slider/slider__heart.svg">
+                            <img src="../main_page/media/product-page/slider/2.png">
+                        </div>
+                        <div class="image-slider__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+                        <div class="image-slider__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+                    </div>
+                    <div class="image__slide swiper-slide ">
+                        <div class="image-slider__image">
+                            <img class="image-slider__image-heart"
+                                 src="../main_page/media/product-page/slider/slider__heart.svg">
+                            <img src="../main_page/media/product-page/slider/3.png">
+                        </div>
+                        <div class="image-slider__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+                        <div class="image-slider__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+                    </div>
+                    <div class="image__slide swiper-slide ">
+                        <div class="image-slider__image">
+                            <img class="image-slider__image-heart"
+                                 src="../main_page/media/product-page/slider/slider__heart.svg">
+                            <img src="../main_page/media/product-page/slider/4.png">
+                        </div>
+                        <div class="image-slider__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+                        <div class="image-slider__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+                    </div>
+                    <div class="image__slide swiper-slide ">
+                        <div class="image-slider__image">
+                            <img class="image-slider__image-heart"
+                                 src="../main_page/media/product-page/slider/slider__heart.svg">
+                            <img src="../main_page/media/product-page/slider/5.png">
+                        </div>
+                        <div class="image-slider__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+                        <div class="image-slider__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+                    </div>
+                    <div class="image__slide swiper-slide ">
+                        <div class="image-slider__image">
+                            <img class="image-slider__image-heart"
+                                 src="../main_page/media/product-page/slider/slider__heart.svg">
+                            <img src="../main_page/media/product-page/slider/6.png">
+                        </div>
+                        <div class="image-slider__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+                        <div class="image-slider__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+                    </div>
+                    <div class="image__slide swiper-slide ">
+                        <div class="image-slider__image">
+                            <img class="image-slider__image-heart"
+                                 src="../main_page/media/product-page/slider/slider__heart.svg">
+                            <img src="../main_page/media/product-page/slider/7.png">
+                        </div>
+                        <div class="image-slider__title">КРЕМ-ГЕЛЬ ДЛЯ СТОЙКИХ ОБРАЗОВ</div>
+                        <div class="image-slider__subtitle">Strong Hold Cream Gel MORE INSIDE</div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</main>
+<footer>
+    <div class="foother__wrapper">
+        <div class="foother__container">
+            <div class="foother__contact_left">
+                <div class="foother__contact_left-title">Свяжитесь с нами:</div>
+                <div class="foother__contact_left-tel">
+                    <span>+7 (391) 234-35-50</span>
+                    <span>+7 (391) 234-35-60</span>
+                </div>
+                <div class="foother__contact_left-mail">studio.colour@yandex.ru</div>
+                <div class="foother__contact_left-graphy">
+                    <span class="contact__left-graphy_title">график работы:</span>
+                    <span class="contact__left-graphy_time"><span>Пн-Пт:</span> с 9:00 до 18:00</span>
+                    <span class="contact__left-graphy_time"><span>Сб-Вс:</span> выходной</span>
+                </div>
+            </div>
+            <div class="foother__contact_logo">
+                <img src="media/icons/header_icons/header__logo-black.svg" alt="">
+            </div>
+            <div class="foother__contact_logo-mobile">
+                <img src="media/icons/header_icons/header__logo-white.svg" alt="">
+            </div>
+            <div class="foother__contact_right">
+                <span>каталог товаров</span>
+                <span>акции</span>
+                <span>новости</span>
+                <span>партнерство</span>
+                <span>контакты</span>
+                <span>доставка и оплата</span>
+                <span>как сделать заказ</span>
+            </div>
+        </div>
+        <div class="footer__social-block">
+            <div class="foother__social-block_container">
+                <div class="social__icons">
+                    <a href="#"><img src="media/icons/footer_icons/vk_footer.svg" alt="ВКонтакте"></a>
+                    <a href="#"><img src="media/icons/footer_icons/tg_footer.svg" alt="Телеграм"></a>
+                    <a href="#"><img src="media/icons/footer_icons/youtube_footer.svg" alt="YouTube"></a>
+                </div>
+                <div class="payment__icons">
+                    <img src="media/icons/footer_icons/mir_footer.svg" alt="МИР">
+                    <img src="media/icons/footer_icons/visa_footer.svg" alt="VISA">
+                    <img src="media/icons/footer_icons/mastercard_footer.svg" alt="MasterCard">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>

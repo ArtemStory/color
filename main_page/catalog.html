@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&subset=cyrillic-ext"
+            rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+<header>
+    <div id="catalog" class="header__wrapper">
+        <div class="header__container">
+            <div class="header__wrapper-mobile_burger">
+                <span></span>
+            </div>
+            <img src="media/icons/header_icons/search_black.svg" class="search_change-mobile">
+            <div class="header__wrapper-mobile_menu-body">
+                <ul class="header__wrapper-mobile_menu-li">
+                    <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-catalog">
+
+                        <div class="header__wrapper-mobile_menu-text">каталог</div>
+                        <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+
+                    </li>
+                    <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-stock"><a href="stock.html">акции</a>
+                    </li>
+                    <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-news"><a href="news.html">новости</a>
+                    </li>
+                    <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-education">
+                        <div class="header__wrapper-mobile_menu-text">обучение</div>
+                        <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                    </li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="brands.html">партнерство</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="contacts.html">контакты</a></li>
+                </ul>
+                <ul class="header__wrapper-mobile_education-li">
+                    <div class="header__wrapper-mobile_education-title">
+                        <div class="header__wrapper-mobile_education-img">
+                            <img src="media/icons/header-mobile/closed__icon.svg">
+                        </div>
+                        <div class="header__wrapper-mobile_education-text">обучение</div>
+                    </div>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">аппаратный педикюр</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">аппаратный маникюр</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">wella professionals</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">tigi</a></li>
+                    <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-davines ">
+                        <div class="header__wrapper-mobile_menu-text">davines</div>
+                        <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                    </li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">londa professionals</a></li>
+                </ul>
+                <ul class="header__wrapper-mobile_catalog-li">
+                    <div class="header__wrapper-mobile_catalog-title">
+                        <div class="header__wrapper-mobile_catalog-img">
+                            <img src="media/icons/header-mobile/closed__icon.svg">
+                        </div>
+                        <div class="header__wrapper-mobile_catalog-text">каталог</div>
+                    </div>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">gehwol</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">londa</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">nioxin</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">seb man</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">tigi</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">wella professionals</a></li>
+                </ul>
+                <ul class="header__wrapper-mobile_davines-li">
+                    <div class="header__wrapper-mobile_davines-title">
+                        <div class="header__wrapper-mobile_davines-img">
+                            <img src="media/icons/header-mobile/closed__icon.svg">
+                        </div>
+                        <div class="header__wrapper-mobile_davines-text">davines</div>
+                    </div>
+                    <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-styling">
+                        <div class="header__wrapper-mobile_menu-text">стайлинг</div>
+                        <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                    </li>
+                    <li class="header__wrapper-mobile_menu-item header__wrapper-mobile_menu-care">
+                        <div class="header__wrapper-mobile_menu-text">уход</div>
+                        <div><img src="media/icons/header-mobile/next__icon.svg"></div>
+                    </li>
+                </ul>
+                <ul class="header__wrapper-mobile_styling-li">
+                    <div class="header__wrapper-mobile_styling-title">
+                        <div class="header__wrapper-mobile_styling-img">
+                            <img src="media/icons/header-mobile/closed__icon.svg">
+                        </div>
+                        <div class="header__wrapper-mobile_styling-text">стайлинг</div>
+                    </div>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">more inside - креативный
+                        стайлинг</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">pasta & love</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">your hair assistaint</a></li>
+                </ul>
+                <ul class="header__wrapper-mobile_care-li">
+                    <div class="header__wrapper-mobile_care-title">
+                        <div class="header__wrapper-mobile_care-img">
+                            <img src="media/icons/header-mobile/closed__icon.svg">
+                        </div>
+                        <div class="header__wrapper-mobile_care-text">уход</div>
+                    </div>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">more inside - креативный
+                        стайлинг</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">pasta & love</a></li>
+                    <li class="header__wrapper-mobile_menu-item"><a href="#">your hair assistaint</a></li>
+                </ul>
+            </div>
+            <div class="header__logo">
+                <a href="home-page.html"><img src="media/icons/header_icons/header__logo-black.svg" alt=""></a>
+            </div>
+            <button type="button" class="profile__open-mobile"><img src="media/icons/header_icons/profile_black.svg"
+                                                                    class="profile_change"></button>
+            <button type="button" class="basket_open-mobile"><img src="media/icons/header_icons/basket_black.svg"
+                                                                  class="trash_change"></button>
+            <nav class="header__nav">
+                <div class="header__menu" id="navbarSupportedContent">
+                    <div class="catalog_and_search">
+                        <button class="menu__catalog" type="button">каталог</button>
+                        <form class="menu__search" role="search">
+                            <input class="form-control search__input" type="search" placeholder="поиск"
+                                   aria-label="Search">
+                            <button class="btn search__button" type="submit"><img
+                                    src="media/icons/header_icons/search_black.svg" class="search_change"></button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav menu__items">
+                        <li class="nav-item">
+                            <a class="menu__item__link" href="stock.html">акции</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__item__link" href="сooperation.html">сотрудничество</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__item__link" href="brands.html">бренды</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__item__link" href="news.html">новости</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__item__link" href="education.html">обучение</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="menu__item__link" href="contacts.html">контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__user_icon">
+                <button class="header__user_icon-heart" type="button"><img
+                        src="media/icons/header_icons/heart_black.svg" class="heart_change"></button>
+                <button type="button"><img src="media/icons/header_icons/profile_black.svg" class="profile_change">
+                </button>
+                <button type="button" class="basket_open"><img src="media/icons/header_icons/basket_black.svg"
+                                                               class="trash_change"></button>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="nav__container">
+        <span class="catalog__nav-grey">Главная</span>
+        <span class="catalog__nav-stick">/</span>
+        <span class="catalog__nav-grey">Каталог</span>
+        <span class="catalog__nav-stick">/</span>
+        <span class="catalog__nav-grey">Уход за волосами</span>
+        <span class="catalog__nav-stick">/</span>
+        <span class="catalog__nav-black">Шампуни</span>
+    </div>
+</nav>
+<main>
+    <div class="main__wrapper-catalog">
+        <div class="modal__container">
+            <div class="modal">
+                <div class="modal__navigate"><span id="homeCatalog">Главная</span> <span>/</span> <span>Каталог</span></div>
+                <div class="modal__nav">
+                    <div class="modal__nav-menu">
+                        <ul class="modal__nav-menu-list">
+                            <li>
+                                <div class="modal__nav-menu-list-item"><a href="catalog.html">Бестлеры</a></div>
+                                <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                            </li>
+                            <li>
+                                <div class="modal__nav-menu-list-item"><a href="catalog.html">Уход за волосами</a></div>
+                                <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                            </li>
+                            <li>
+                                <div class="modal__nav-menu-list-item"><a href="catalog.html">Укладочные средства</a></div>
+                                <div class="modal__nav-menu-list-item-img"></div>
+                            </li>
+                            <li>
+                                <div class="modal__nav-menu-list-item"><a href="catalog.html">Окрашивание</a></div>
+                                <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                            </li>
+                            <li>
+                                <div class="modal__nav-menu-list-item"><a href="catalog.html">Уход за телом</a></div>
+                                <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                            </li>
+                            <li>
+                                <div class="modal__nav-menu-list-item"><a href="catalog.html">Подарочные наборы</a></div>
+                                <div class="modal__nav-menu-list-item-img"></div>
+                            </li>
+                            <li>
+                                <div class="modal__nav-menu-list-item"><a href="catalog.html">Бренды</a></div>
+                                <div class="modal__nav-menu-list-item-img"><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal__nav-submenu">
+                        <div class="modal__nav-sumbenu-title">Уход за волосами</div>
+                        <ul class="modal__nav-submenu-list">
+                            <li>Шампуни</li>
+                            <li>Бальзамы, маски кондиционеры</li>
+                            <li>Несмываемый уход</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar__catigories">
+                <div class="sidebar__control-filter-mobile" >
+                    <div class="sidebar__control-filter-text" >
+                        <div><img src="../main_page/media/catalog/arrow-filter.svg" alt="arrow"></div>
+                        <div class="sidebar__control-filter-text-body">Фильтры</div>
+                    </div>
+                    <div class="sidebar__control-filter-reset">Сбросить все</div>
+                </div>
+                <div class="categories__title">Уход за волосами</div>
+                <div class="categories__subtitle">Шампунь</div>
+                <div class="categories__subtitle">Бальзамы, маски кондиционеры</div>
+                <div class="categories__subtitle">Несмываемый уход</div>
+            </div>
+            <form action="#">
+                <div class="sidebar__filter-list">
+                    <div class="sidebar__brand">
+                        <div class="brand__title">
+                            <div class="brand__title-body">Бренд</div>
+                            <div><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </div>
+                        <div class="brands__list">
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="framesi" name="framesi" type="checkbox"/>
+                                    <div class="brand__input-text">Framesi</div>
+                                </div>
+                                <div class="brand__count">2</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="davines" name="davines" type="checkbox"/>
+                                    <div class="brand__input-text">Davines</div>
+                                </div>
+                                <div class="brand__count">2</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="farmagan" name="farmagan" type="checkbox"/>
+                                    <div class="brand__input-text">Farmagan</div>
+                                </div>
+                                <div class="brand__count">11</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="insightProfessional" name="insightProfessional" type="checkbox"/>
+                                    <div class="brand__input-text">Insight Professional</div>
+                                </div>
+                                <div class="brand__count">4</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="tigi" name="tigi" type="checkbox"/>
+                                    <div class="brand__input-text">TIGI</div>
+                                </div>
+                                <div class="brand__count">6</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="wellaProfessionals" name="wellaProfessionals" type="checkbox"/>
+                                    <div class="brand__input-text">Wella Professionals</div>
+                                </div>
+                                <div class="brand__count">1</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="londaProfessional" name="londaProfessional" type="checkbox"/>
+                                    <div class="brand__input-text">Londa Professional</div>
+                                </div>
+                                <div class="brand__count">1</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="nioxin" name="nioxin" type="checkbox"/>
+                                    <div class="brand__input-text">Nioxin</div>
+                                </div>
+                                <div class="brand__count">1</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="sp" name="sp" type="checkbox"/>
+                                    <div class="brand__input-text">SP</div>
+                                </div>
+                                <div class="brand__count">1</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="weDoProfessional" name="weDoProfessional" type="checkbox"/>
+                                    <div class="brand__input-text">WeDo/Professional</div>
+                                </div>
+                                <div class="brand__count">1</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="gehwol" name="gehwol" type="checkbox"/>
+                                    <div class="brand__input-text">Gehwol</div>
+                                </div>
+                                <div class="brand__count">1</div>
+                            </div>
+                            <div class="brand__list-item">
+                                <div class="brand__input">
+                                    <input id="eviProfessional" name="eviProfessional" type="checkbox"/>
+                                    <div class="brand__input-text">Evi Professional</div>
+                                </div>
+                                <div class="brand__count">1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar__product">
+                        <div class="product__title">
+                            <div class="product__title-body">Мой продукт</div>
+                            <div><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </div>
+                        <div class="product__list">
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="shampoo" name="shampoo" type="checkbox"/>
+                                    <div class="product__input-text">Шампунь</div>
+                                </div>
+                                <div class="product__count">183</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="conditioner" name="conditioner" type="checkbox"/>
+                                    <div class="product__input-text">Кондиционер/бальзам</div>
+                                </div>
+                                <div class="product__count">183</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="hairMask" name="hairMask" type="checkbox"/>
+                                    <div class="product__input-text">Маска для волос</div>
+                                </div>
+                                <div class="product__count">1</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="serums" name="serums" type="checkbox"/>
+                                    <div class="product__input-text">Сыворотки для волос</div>
+                                </div>
+                                <div class="product__count">4</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="oil" name="oil" type="checkbox"/>
+                                    <div class="product__input-text">Масло для волос</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="mustache" name="mustache" type="checkbox"/>
+                                    <div class="product__input-text">Для бороды и усов</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="fixation" name="fixation" type="checkbox"/>
+                                    <div class="product__input-text">Лак для волос</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="foam" name="foam" type="checkbox"/>
+                                    <div class="product__input-text">Пена для волос</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="styling" name="styling" type="checkbox"/>
+                                    <div class="product__input-text">Спрей для укладки</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="wax" name="wax" type="checkbox"/>
+                                    <div class="product__input-text">Воск для волос</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="clay" name="clay" type="checkbox"/>
+                                    <div class="product__input-text">Глина для укладки</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="pomade" name="pomade" type="checkbox"/>
+                                    <div class="product__input-text">Помада/
+                                        крем для укладки
+                                    </div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="dryShampoo" name="dryShampoo" type="checkbox"/>
+                                    <div class="product__input-text">Сухой шампунь</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="gel" name="gel" type="checkbox"/>
+                                    <div class="product__input-text">Гель для укладки</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="giftBaskets" name="giftBaskets" type="checkbox"/>
+                                    <div class="product__input-text">Подарочные Наборы</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="naturalShades" name="naturalShades" type="checkbox"/>
+                                    <div class="product__input-text">Натуральные оттенки</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="coldShades" name="coldShades" type="checkbox"/>
+                                    <div class="product__input-text">Холодные оттенки</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="warmShades" name="warmShades" type="checkbox"/>
+                                    <div class="product__input-text">Теплые оттенки</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="grayHair" name="grayHair" type="checkbox"/>
+                                    <div class="product__input-text">Для седых волос</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="brighteningPowder" name="brighteningPowder" type="checkbox"/>
+                                    <div class="product__input-text">Осветляющий порошок</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="oxidativeEmulsions" name="oxidativeEmulsions" type="checkbox"/>
+                                    <div class="product__input-text">Окислительные
+                                        эмульсии
+                                    </div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="stabilizers" name="stabilizers" type="checkbox"/>
+                                    <div class="product__input-text">Стабилизаторы</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="footCream" name="footCream" type="checkbox"/>
+                                    <div class="product__input-text">Крем для ног</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="showerGel" name="showerGel" type="checkbox"/>
+                                    <div class="product__input-text">Гель для душа</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="handCream" name="handCream" type="checkbox"/>
+                                    <div class="product__input-text">Крем для рук</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="deodorants" name="deodorants" type="checkbox"/>
+                                    <div class="product__input-text">Дезодоранты</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="bodyLegSscrub" name="bodyLegSscrub" type="checkbox"/>
+                                    <div class="product__input-text">Скраб для тела/ног</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="saltFootBath" name="saltFootBath" type="checkbox"/>
+                                    <div class="product__input-text">Соль/ванна для ног</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="plasters" name="plasters" type="checkbox"/>
+                                    <div class="product__input-text">Пластыри/корректоры</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="perm" name="perm" type="checkbox"/>
+                                    <div class="product__input-text">Химическая завивка</div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                            <div class="product__list-item">
+                                <div class="product__input">
+                                    <input id="lineProducts" name="lineProducts" type="checkbox"/>
+                                    <div class="product__input-text">Техническая линия
+                                        продуктов
+                                    </div>
+                                </div>
+                                <div class="product__count">6</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar__hair">
+                        <div class="hair__title">
+                            <div class="hair__title-body">Тип кожи головы</div>
+                            <div><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </div>
+                        <div class="hair__list">
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="painted" name="painted" type="checkbox"/>
+                                    <div class="hair__input-text">Окрашенные</div>
+                                </div>
+                                <div class="hair__count">2</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="curly" name="curly" type="checkbox"/>
+                                    <div class="hair__input-text">Кудрявые, вьющиеся</div>
+                                </div>
+                                <div class="hair__count">2</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="damaged" name="damaged" type="checkbox"/>
+                                    <div class="hair__input-text">Поврежденные/
+                                        восстановление
+                                    </div>
+                                </div>
+                                <div class="hair__count">11</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="dry" name="dry" type="checkbox"/>
+                                    <div class="hair__input-text">Сухие/увлажнение</div>
+                                </div>
+                                <div class="hair__count">4</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="breakage" name="breakage" type="checkbox"/>
+                                    <div class="hair__input-text">Против ломкости</div>
+                                </div>
+                                <div class="hair__count">6</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="volume" name="volume" type="checkbox"/>
+                                    <div class="hair__input-text">Для объема</div>
+                                </div>
+                                <div class="hair__count">6</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="hairShine" name="hairShine" type="checkbox"/>
+                                    <div class="hair__input-text">Для блеска волос</div>
+                                </div>
+                                <div class="hair__count">6</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="chlorine" name="chlorine" type="checkbox"/>
+                                    <div class="hair__input-text">Для защиты от
+                                        солнца/хлора
+                                    </div>
+                                </div>
+                                <div class="hair__count">6</div>
+                            </div>
+                            <div class="hair__list-item">
+                                <div class="hair__input">
+                                    <input id="children" name="children" type="checkbox"/>
+                                    <div class="hair__input-text">Детский +3</div>
+                                </div>
+                                <div class="hair__count">6</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sidebar__gender">
+                        <div class="gender__title">
+                            <div class="gender__title-body">Пол</div>
+                            <div><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </div>
+                        <div class="gender__list">
+                            <div class="gender__list-item">
+                                <div class="gender__input">
+                                    <input id="men" name="men" type="checkbox"/>
+                                    <div class="gender__input-text">Мужской</div>
+                                </div>
+                                <div class="gender__count">2</div>
+                            </div>
+                            <div class="gender__list-item">
+                                <div class="gender__input">
+                                    <input id="woomen" name="woomen" type="checkbox"/>
+                                    <div class="gender__input-text">Женский</div>
+                                </div>
+                                <div class="gender__count">2</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sidebar__filter">
+                        <div class="filter__title">
+                            <div class="filter__title-body">Эко-фильтры</div>
+                            <div><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </div>
+                        <div class="filter__list">
+                            <div class="filter__list-item">
+                                <div class="filter__input">
+                                    <input id="sles" name="sles" type="checkbox"/>
+                                    <div class="filter__input-text">Без SLS, SLES</div>
+                                </div>
+                                <div class="filter__count">183</div>
+                            </div>
+                            <div class="filter__list-item">
+                                <div class="filter__input">
+                                    <input id="paraben" name="paraben" type="checkbox"/>
+                                    <div class="filter__input-text">Без парабенов</div>
+                                </div>
+                                <div class="filter__count">1</div>
+                            </div>
+                            <div class="filter__list-item">
+                                <div class="filter__input">
+                                    <input id="silicone" name="silicone" type="checkbox"/>
+                                    <div class="filter__input-text">Без силиконов</div>
+                                </div>
+                                <div class="filter__count">1</div>
+                            </div>
+                            <div class="filter__list-item">
+                                <div class="filter__input">
+                                    <input id="gluten" name="gluten" type="checkbox"/>
+                                    <div class="filter__input-text">Без глютена</div>
+                                </div>
+                                <div class="filter__count">4</div>
+                            </div>
+                            <div class="filter__list-item">
+                                <div class="filter__input">
+                                    <input id="withou" name="withou" type="checkbox"/>
+                                    <div class="filter__input-text">Без красителей</div>
+                                </div>
+                                <div class="filter__count">6</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sidebar__volume">
+                        <div class="volume__title">
+                            <div class="volume__title-body">Объём</div>
+                            <div><img src="../main_page/media/catalog/arrow.svg" alt="arrow"></div>
+                        </div>
+                        <div class="volume__list">
+                            <div class="volume__list-item">
+                                <div class="volume__input">
+                                    <input id="travel" name="travel" type="checkbox"/>
+                                    <div class="volume__input-text">Travel</div>
+                                </div>
+                                <div class="volume__count">183</div>
+                            </div>
+                            <div class="volume__list-item">
+                                <div class="volume__input">
+                                    <input id="retail" name="retail" type="checkbox"/>
+                                    <div class="volume__input-text">Retail</div>
+                                </div>
+                                <div class="volume__count">1</div>
+                            </div>
+                            <div class="volume__list-item">
+                                <div class="volume__input">
+                                    <input id="prof" name="prof" type="checkbox"/>
+                                    <div class="volume__input-text">Prof</div>
+                                </div>
+                                <div class="volume__count">2</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar__button-container" >
+                    <button type="submit" class="sidebar__button">Применить</button>
+                </div>
+            </form>
+        </div>
+        <div class="content">
+            <div class="content__title">Шампуни</div>
+            <div class="content__subtitle">
+                <div class="content__subtitle-text" >Найдено 546 товаров</div>
+                <div class="content__subtitle-control">
+                    <button class="content__subtitle-button">
+                        <div class="content__subtitle-button-body" >Фильтры</div>
+                        <div><img src="../main_page/media/catalog/button-icon.svg" alt=button></div>
+                    </button>
+                    <div>
+                        <select class="content__subtitle-select" name="sorting" id="sorting">
+                            <option selected disabled value="popelar">Популярные</option>
+                            <option value="popular">По популярности</option>
+                            <option value="priceDown">По убыванию цены</option>
+                            <option value="priceUp">По возрастанию цены</option>
+                            <option value="review">По отзывам</option>
+                            <option value="rating">По рейтингу</option>
+                            <option value="discont">Товар со скидкой</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="content__item-list">
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html">
+                    <div class="content__item">
+                        <div class="content__item-background">
+                            <div class="content__item-image">
+                                <img src="../main_page/media/catalog/item-content.png" alt="content">
+                            </div>
+                            <div class="content__item-heart"><img src="../main_page/media/catalog/heart-white.svg"
+                                                                  alt=""></div>
+                        </div>
+                        <div class="content__item-title">Strong Hold Cream Gel
+                            MORE INSIDE
+                        </div>
+                        <div class="content__item-subtitle">Крем-гель для стойких образов</div>
+                        <div class="content__item-star">
+                            <div>
+                                <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                                <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                                <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                                <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                                <img src="../main_page/media/catalog/star.svg" alt="">
+                            </div>
+                            <div>31</div>
+                        </div>
+                        <div class="content__item-price">
+                            <div class="content__price-actual">1 784₽</div>
+                            <div class="content__price-discount">2 099₽</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+                <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+                </div></a>
+               <a href="product-page.html"><div class="content__item">
+                    <div class="content__item-background">
+                        <div class="content__item-image">
+                            <img src="../main_page/media/catalog/item-content.png" alt="content">
+                        </div>
+                        <div class="content__item-heart" ><img src="../main_page/media/catalog/heart-white.svg" alt=""></div>
+                    </div>
+                    <div class="content__item-title">Strong Hold Cream Gel
+                        MORE INSIDE</div>
+                    <div class="content__item-subtitle">Крем-гель для стойких образов </div>
+                    <div class="content__item-star">
+                        <div>
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/starYellow.svg" alt="">
+                            <img src="../main_page/media/catalog/star.svg" alt="">
+                        </div>
+                        <div>31</div>
+                    </div>
+                    <div class="content__item-price">
+                        <div class="content__price-actual" >1 784₽</div>
+                        <div class="content__price-discount" >2 099₽</div>
+                    </div>
+               </div></a>
+                </div>
+            <div class="content__item-pagination">
+                <div class="item__pagination-text">Показать ещё</div>
+                <div class="item__pagination-number-block">
+                    <div class="item__pagination-arrowL"><img src="../main_page/media/catalog/arrow-pagination-left.svg" alt=""></div>
+                    <div>
+                        <span class="item__pagination-number item__pagination-number1">1</span>
+                        <span class="item__pagination-number item__pagination-number2">2</span>
+                        <span class="item__pagination-number item__pagination-number3">3</span>
+                    </div>
+                    <div class="item__pagination-arrowR"><img src="../main_page/media/catalog/arrow-pagination-right.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="foother__wrapper">
+        <div class="foother__container">
+            <div class="foother__contact_left">
+                <div class="foother__contact_left-title">Свяжитесь с нами:</div>
+                <div class="foother__contact_left-tel">
+                    <span>+7 (391) 234-35-50</span>
+                    <span>+7 (391) 234-35-60</span>
+                </div>
+                <div class="foother__contact_left-mail">studio.colour@yandex.ru</div>
+                <div class="foother__contact_left-graphy">
+                    <span class="contact__left-graphy_title">график работы:</span>
+                    <span class="contact__left-graphy_time"><span>Пн-Пт:</span> с 9:00 до 18:00</span>
+                    <span class="contact__left-graphy_time"><span>Сб-Вс:</span> выходной</span>
+                </div>
+            </div>
+            <div class="foother__contact_logo">
+                <img src="media/icons/header_icons/header__logo-black.svg" alt="">
+            </div>
+            <div class="foother__contact_logo-mobile">
+                <img src="media/icons/header_icons/header__logo-white.svg" alt="">
+            </div>
+            <div class="foother__contact_right">
+                <span>каталог товаров</span>
+                <span>акции</span>
+                <span>новости</span>
+                <span>партнерство</span>
+                <span>контакты</span>
+                <span>доставка и оплата</span>
+                <span>как сделать заказ</span>
+            </div>
+        </div>
+        <div class="footer__social-block">
+            <div class="foother__social-block_container">
+                <div class="social__icons">
+                    <a href="#"><img src="media/icons/footer_icons/vk_footer.svg" alt="ВКонтакте"></a>
+                    <a href="#"><img src="media/icons/footer_icons/tg_footer.svg" alt="Телеграм"></a>
+                    <a href="#"><img src="media/icons/footer_icons/youtube_footer.svg" alt="YouTube"></a>
+                </div>
+                <div class="payment__icons">
+                    <img src="media/icons/footer_icons/mir_footer.svg" alt="МИР">
+                    <img src="media/icons/footer_icons/visa_footer.svg" alt="VISA">
+                    <img src="media/icons/footer_icons/mastercard_footer.svg" alt="MasterCard">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>

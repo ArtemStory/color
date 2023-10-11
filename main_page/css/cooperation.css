@@ -1,0 +1,124 @@
+.main__wrapper_cooperation{
+    padding: 0 38px 189px 38px;
+}
+.main__container__cooperation{
+    padding: 138px 0 0 0;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cooperation__title-image{
+    margin: 0 0 20px 0;
+    background-image: url("../media/cooperation/image__cooperation.png");
+    background-size: cover;
+}
+.cooperation__title-text{
+    max-width: 1140px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 37px 0 0;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.cooperation__form{
+    max-width: 1140px;
+    overflow: hidden;
+    margin: 0 0 34px 0;
+}
+.cooperation__contacts-mobile{
+    display: none;
+}
+.cooperation__contacts-mobile_title{
+    margin: 0 0 45px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.cooperation__contacts-mobile_sub-title{
+    margin: 0 0 45px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.cooperation__contacts-mobile_tel{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.cooperation__contacts-mobile_number-1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+
+}
+.cooperation__contacts-mobile_number-2{
+    margin: 0 0 30px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.cooperation__contacts-mobile_email{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 0 0 30px 0;
+}
+.cooperation__contacts-mobile_email span{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.cooperation__contacts-mobile_form{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160.9%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+@media(max-width:962px){
+    .cooperation__title-text{
+        font-size: 35px;
+    }
+}
+@media(max-width:768px){
+    .cooperation__title-text{
+        font-size: 25px;
+        min-height: 300px;
+        padding: 0 20px 0 0;
+    }
+    .main__wrapper_cooperation{
+        padding: 0 0px 189px 0px;
+    }
+    .cooperation__contacts-mobile{
+        display: block;
+        padding: 0 15px;
+    }
+}
+@media(max-width:425px){
+    .cooperation__title-text{
+        max-width: 300px;
+        min-width: 300px;
+        font-size: 18px;
+        min-height: 200px;
+    }
+}

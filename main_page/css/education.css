@@ -1,0 +1,197 @@
+.main__container_education{
+    padding: 138px 0 0 0;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.education__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 0 0 58px 0;
+}
+.education__item_bedhead{
+    grid-area: b;
+}
+.education__item_wella{
+    grid-area: w;
+}
+.education__item_avines{
+    grid-area: a;
+}
+.education__item_pedicure{
+    grid-area: p;
+}
+.education__item_manicure{
+    grid-area: m;
+}
+.education__item_londa{
+    grid-area: l;
+}
+.education__items{
+    margin: 0 0 26px 0;
+    max-width: 1140px;
+    gap: 50px 30px;
+    display: grid;
+    grid-template:
+            "b w"
+            "a a"
+            "p m"
+            "l l";
+}
+@media(max-width: 1200px){
+    .main__container_education{
+        max-width: 608px;
+    }
+    .education__title{
+        width: 100%;
+        text-align: left;
+    }
+    .main__container_education{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .education__items{
+        max-width: 608px;
+    }
+    .education__item_bedhead img{
+        max-width: 296px;
+        max-height: 106px;
+    }
+    .education__item_wella img{
+        max-width: 296px;
+        max-height: 106px;
+    }
+    .education__item_avines img{
+        max-width: 608px;
+        max-height: 106px;
+    }
+    .education__item_pedicure img{
+        max-width: 296px;
+        max-height: 106px;
+    }
+    .education__item_manicure img{
+        max-width: 296px;
+        max-height: 106px;
+    }
+    .education__item_londa img{
+        max-width: 608px;
+        max-height: 106px;
+    }
+
+}
+@media(max-width: 767px){
+    .main__container_education{
+        max-width: 608px;
+    }
+    .education__title{
+        width: 100%;
+        text-align: left;
+    }
+    .main__container_education{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .education__items{
+        max-width: 608px;
+    }
+    .education__item_bedhead img{
+        max-width: 425px;
+        max-height: 200px;
+    }
+    .education__item_wella img{
+        max-width: 425px;
+        max-height: 200px;
+    }
+    .education__item_avines img{
+        max-width: 425px;
+        max-height: 200px;
+    }
+    .education__item_pedicure img{
+        max-width: 425px;
+        max-height: 200px;
+    }
+    .education__item_manicure img{
+        max-width: 425px;
+        max-height: 200px;
+    }
+    .education__item_londa img{
+        max-width: 425px;
+        max-height: 200px;
+    }
+    .education__items{
+        gap: 30px 15px;
+        display: grid;
+        grid-template:
+            "b"
+            "w"
+            "a"
+            "p"
+            "m"
+            "l";
+    }
+
+}
+@media(max-width: 425px){
+    .main__container_education{
+        max-width: 608px;
+    }
+    .education__title{
+        width: 100%;
+        text-align: left;
+    }
+    .main__container_education{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .education__items{
+        max-width: 608px;
+    }
+    .education__item_bedhead img{
+        max-width: 310px;
+        max-height: 108px;
+    }
+    .education__item_wella img{
+        max-width: 310px;
+        max-height: 108px;
+    }
+    .education__item_avines img{
+        max-width: 300px;
+        max-height: 100px;
+    }
+    .education__item_pedicure img{
+        max-width: 310px;
+        max-height: 108px;
+    }
+    .education__item_manicure img{
+        max-width: 310px;
+        max-height: 108px;
+    }
+    .education__item_londa img{
+        max-width: 300px;
+        max-height: 100px;
+    }
+    .education__items{
+        gap: 30px 15px;
+        display: grid;
+        grid-template:
+            "b"
+            "w"
+            "a"
+            "p"
+            "m"
+            "l";
+    }
+
+}

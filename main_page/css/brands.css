@@ -1,0 +1,295 @@
+#headerBrands{
+    z-index: 50;
+}
+.main__wrapper_brands{
+    padding: 0 38px 25px 38px;
+}
+.header__wrapper-brands{
+    z-index: 50;
+}
+.main__container_brands {
+    padding: 25px 0 0 0;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main__brands_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 0 0 47px 0;
+}
+
+.brands__item_tigi {
+    padding: 60px 0;
+    max-width: 555px;
+
+    grid-area: tigi;
+}
+
+.brands__item_sebman {
+    padding: 57px 73px;
+    max-width: 262px;
+    grid-area: sebman;
+}
+
+.brands__item_nioxin {
+    padding: 100px 29px;
+    grid-area: nioxin;
+    max-width: 262px;
+}
+
+.brands__item_wella {
+    padding: 67px 34px;
+    max-width: 262px;
+    grid-area: wella;
+}
+
+.brands__item_avines {
+    padding: 46px 72px;
+    grid-area: avines;
+    max-width: 555px;
+}
+
+.brands__item_londa {
+    max-width: 262px;
+    padding: 77px 36px;
+    grid-area: londa;
+}
+
+.brands__item_gehwol {
+    padding: 63px 242px;
+    grid-area: gehwol;
+}
+
+.brands__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+}
+
+.main__brands_items {
+    margin: 0 0 50px 0;
+    display: grid;
+    max-width: 800px;
+    gap: 30px;
+    grid-template:
+    "tigi tigi sebman nioxin"
+    "wella avines avines londa"
+    "gehwol gehwol gehwol gehwol";
+}
+
+.main__brands_form{
+    background: #86BCDE;
+    min-width: 1140px;
+    min-height: 420px;
+    padding: 45px 68px;
+}
+.brands__form_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 0 0 11px 0;
+}
+.brands__form_input{
+    outline: none;
+    border: none;
+    background: #86BCDE;
+    border-bottom: 1px solid #FFFFFF;
+    max-width: 305px;
+    width: 100%;
+    margin: 0 28px 0 0;
+}
+.brands__form_label{
+    max-width: 305px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.brands__block_form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin: 0 0 29px 0;
+}
+.brands__form_label-message{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin: 0 0 40px 0;
+}
+.brands__form_input-message{
+    outline: none;
+    border: none;
+    background: #86BCDE;
+    border-bottom: 1px solid #FFFFFF;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 28px 0 0;
+}
+.brands__form{
+    display: flex;
+    flex-direction: column;
+}
+.brands__forn_button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 6px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    background: #FFFFFF;
+    padding: 20px 40px;
+    max-width: 209px;
+    border: none;
+}
+@media (max-width: 1262px) {
+    .main__brands_form{
+        min-width: 700px;
+    }
+    .main__container_brands {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .brands__item_tigi {
+        max-width: 700px;
+    }
+
+    .brands__item_sebman {
+        max-width: 350px;
+    }
+
+    .brands__item_nioxin {
+        max-width: 350px;
+    }
+
+    .brands__item_wella {
+        max-width: 350px;
+    }
+
+    .brands__item_avines {
+        max-width: 700px;
+    }
+
+    .brands__item_londa {
+        max-width: 350px;
+    }
+
+
+    .brands__item_gehwol {
+        max-width: 700px;
+    }
+
+    .main__brands_items {
+
+        grid-template:
+    "tigi tigi"
+    "sebman nioxin"
+    "wella  londa"
+    "avines  avines"
+    "gehwol gehwol"
+    }
+}
+
+@media (max-width: 767px) {
+
+    .main__brands_items {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main__container_brands {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brands__item_tigi {
+        max-width: 300px;
+    }
+
+    .brands__item_tigi img {
+        max-width: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .brands__item_sebman {
+        max-width: 270px;
+    }
+
+    .brands__item_nioxin {
+        max-width: 270px;
+    }
+
+    .brands__item_wella {
+        max-width: 270px;
+    }
+
+    .brands__item_avines {
+        max-width: 300px;
+    }
+
+    .brands__item_avines img {
+        max-width: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .brands__item_londa {
+        max-width: 270px;
+    }
+
+
+    .brands__item_gehwol {
+        max-width: 300px;
+        padding: 15px
+    }
+
+    .brands__item_gehwol img {
+        max-width: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .main__brands_items {
+        grid-template:
+    "tigi"
+    "sebman"
+    "nioxin"
+    "wella"
+    "londa"
+    "avines"
+    "gehwol"
+    }
+    .main__brands_form{
+        padding: 23px 34px ;
+        min-width: 300px;
+    }
+
+
+}

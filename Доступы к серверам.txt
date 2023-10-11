@@ -1,0 +1,37 @@
+
+Почта:
+
+адрес:  studio.colour24@yandex.ru
+пароль:   privetstudio.colour24$
+
+REG RU кабинет:
+
+логин: studio.colour24@yandex.ru
+Пароль: l!9iNF2x
+
+
+Сервер (VPS):
+
+IP-адрес 194.67.108.87
+
+Сервер (BitrixVM)
+Логин: root
+Пароль: %tRUHiz-3npx
+
+Доступ к DNS
+
+Адрес: https://dnsadmin.hosting.reg.ru/manager/ispmgr
+Логин: ce82279671
+Пароль: nQvIOac9!wI0TTm
+DNS: ns5.hosting.reg.ru • ns6.hosting.reg.ru
+
+MySQL:
+
+name: server1
+пароль: color24color24 (или: colour24colour24)
+
+Админка Битрикс:
+
+логин: admin
+пароль: color24
+
